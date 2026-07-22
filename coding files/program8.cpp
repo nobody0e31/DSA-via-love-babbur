@@ -8,16 +8,21 @@ int main(){
     cout<<"enter value of n"<<endl;
     cin>>n;
 
-int i=1;
-i <= n;
+int row = 1;
 
-int j = 1;
+    int col = 1;
+        while(col <= n){
+                    char ch = 'A'+row-1;
+                    cout<< ch ;
 
-    while(j<= n){
+        col+=1;
 
-        cout<<'A'+i-1;
+        
+                }
+                cout<<endl;
+                    row+=1;
 
-        j =j+1;
+
     }
 
 
