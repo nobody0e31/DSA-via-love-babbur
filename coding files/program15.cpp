@@ -7,16 +7,17 @@ int main()
 
     cout<<" enter n :"<<endl;
     cin>>n;
-    for (;;){
-        int a =1;
-        if(a<=n){
+    int a = 1;
+    for( ; ; ){
+        
+        if(a <= n){
             cout<<a<<endl;
         }
         else{
             break;
 
         } 
-     a++;   
+        a++;   
     }
     
     
