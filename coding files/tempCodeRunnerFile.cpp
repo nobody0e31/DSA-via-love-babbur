@@ -1,23 +1,4 @@
-#include<iostream>
-using namespace std;
-int main()
-{
+int main(){
 
     int n;
-
-    cout<<" enter n :"<<endl;
     cin>>n;
-    for (;;){
-        int a =1;
-        if(a<=n){
-            cout<<a<<endl;
-        }
-        else{
-            break;
-
-        } 
-     a++;   
-    }
-    
-    
-}
