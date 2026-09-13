@@ -28,21 +28,26 @@ int main(){
 
 
 int largest = INT_MIN ;
-int smallest = INT_MAX;
     for(int k = 0; k<size;k++){
         if(largest < arr[k]){
             largest = arr[k];
         }
 
       
-        if (smallest > arr[k]){
+            
+    }
+     cout<<"largest is "<<largest<<endl;
 
-            smallest = arr[k];
+int smallest = INT_MAX;
+     for(int p = 0 ; p < size ; p++){
+
+        if (smallest > arr[p]){
+
+            smallest = arr[p];
         }
 
 
      }  
      cout<<"smallest is : "<<smallest;
-       cout<<"largest is "<<largest<<endl;
      return 0;
 }
